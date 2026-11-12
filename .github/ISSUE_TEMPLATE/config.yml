@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 隐私问题请私下联系老师
+    url: https://github.com/ZaneZhang-MINXIN/frc-programming-classroom/blob/main/PRIVACY.md
+    about: 不要在公开 Issue 中报告或重复粘贴个人资料，先阅读说明，再使用学校渠道联系老师。

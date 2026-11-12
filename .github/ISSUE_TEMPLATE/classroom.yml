@@ -1,0 +1,52 @@
+name: 课堂提问或建议
+description: 用学习代号提出一个真实问题或具体建议，不上传截图和身份资料
+title: "[课堂练习] "
+labels: ["classroom", "question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这是公开页面。请勿填写真实姓名、学号、私人邮箱、密码、令牌或个人路径。
+        没有遇到报错也可以提出概念问题，不必编造故障。作业截图只交老师指定的问卷星表单。
+        请在标题中补上自己的学习代号与简短主题。
+  - type: input
+    id: alias
+    attributes:
+      label: 学习代号
+      description: 自己选的 FRC-加8位随机数字，不找老师领取，不填真实学号。
+      placeholder: FRC-58320491
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 问题类型
+      options:
+        - 概念提问
+        - 操作报错
+        - 教程改进建议
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 我的问题或建议
+      description: 说清楚哪一步、想了解什么或希望怎样改进。不要只写“不会”或“已完成”。
+      placeholder: 我完成了 Commit，但还没有 Push。为什么 GitHub 网页仍显示旧内容？
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: 我已经尝试或想到的内容
+      description: 写一两句即可。概念提问可写自己目前的理解，不需要日志或截图。
+      placeholder: 我理解 Commit 是本地记录，想确认什么时候内容才会到 GitHub。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 发布前检查
+      options:
+        - label: 我已检查标题和正文，只填写学习代号，没有真实身份资料、凭据或作业截图。
+          required: true
