@@ -4,6 +4,7 @@
 
 | 你要做什么 | 入口 |
 | --- | --- |
+| 一份文件读完教程和作业 | **[完整合订版 Markdown](docs/FRC编程环境与GitHub协作_完整教程与作业.md)** |
 | 跟着安装、操作 | [Markdown 教程，含 Windows / macOS 与真实 VS Code 示例图](docs/tutorial.md) |
 | 找安装包与下载备用 | [软件下载清单](docs/downloads.md) |
 | 看必交、选做和截图要求 | [作业页](ASSIGNMENT.md) |
