@@ -1,6 +1,6 @@
 # 提交课堂练习
 
-完整的逐步操作见 [教程](docs/tutorial.md)。作业凭据要求见 [作业页](ASSIGNMENT.md)。
+GitHub 协作是本次选做内容，不会做也可凭真实环境进度截图交作业。逐步操作见 [教程](docs/tutorial.md#github)，凭据要求见 [作业页](ASSIGNMENT.md)，最终提交到 [问卷星](https://v.wjx.cn/vm/YR3nxKS.aspx)。
 
 ## 最短操作路线
 
@@ -12,8 +12,8 @@
 6. 复制 `examples/FRC-EXAMPLE.md` 为 `submissions/你的学习代号.md`，修改示例代号与学习句子。
 7. 保存、检查差异，只暂存自己的文件，Commit，再 Push 到自己的 Fork。
 8. 在教师仓库提交一个具体问题或建议的 Issue。
-9. 从自己的练习分支向教师仓库 `main` 提交 PR，并链接自己的 Issue。
-10. 检查 PR 的 Files changed，确认只包含自己的代号文件。等老师公布问卷星入口后，按题目交截图。
+9. 从自己的练习分支向教师仓库 `main` 提交 PR。有 Issue 就附链接，暂未完成就如实注明。
+10. 检查 PR 的 Files changed，确认只包含自己的代号文件。按问卷题目交截图，未完成的 GitHub 截图题可留空。
 
 ## 改动范围
 

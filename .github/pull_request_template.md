@@ -8,7 +8,7 @@
 submissions/自己的学习代号.md
 ```
 
-关联 Issue：在这里粘贴自己在教师仓库创建的 Issue 链接
+关联 Issue：有则粘贴自己在教师仓库创建的 Issue 链接；暂未做就写“暂未完成”
 
 ## Evidence
 

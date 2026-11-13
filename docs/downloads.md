@@ -1,6 +1,8 @@
 # 软件下载地址
 
-核对日期：2026-11-12。先按电脑系统和芯片选文件。WPILib 固定为课堂用 Alpha 6，普通 VS Code 和 Git 不要求全班的小版本完全一致。
+版本与校验值复核：2026-11-13。[返回教程](tutorial.md#download) | [查看作业](../ASSIGNMENT.md)
+
+先按系统和芯片选文件。WPILib 固定为课堂用 Alpha 6，普通 VS Code 和 Git 不要求全班的小版本完全一致。以下地址可点击，右键也可复制链接。
 
 ## WPILib 课堂版本
 
@@ -30,6 +32,22 @@ Mac Arm64 DMG：
 `f6c9b5291ac383db082a45856a480a8dbe8c906696c3c960048547c579a1e2bf`
 
 校验值抄自上述官方发布页。下载后按同名文件逐位核对，不把 Intel 与 Arm64 混用。
+
+### 怎样算出下载文件的 SHA256
+
+Windows 在 PowerShell 执行，先把引号内换成文件的实际路径：
+
+```powershell
+Get-FileHash "C:\实际下载目录\WPILib_Windows-2027.0.0-alpha-6.iso" -Algorithm SHA256
+```
+
+Mac 在终端输入 `shasum -a 256` 和一个空格，再把 DMG 从 Finder 拖进终端，按 Enter。也可按下列格式替换路径：
+
+```bash
+shasum -a 256 "/实际下载目录/WPILib_macOS-Arm64-2027.0.0-alpha-6.dmg"
+```
+
+Intel Mac 改为对应的 Intel 文件名。计算结果必须与上方同平台的值逐位相同；不一致就停止安装，请老师检查。
 
 ## 普通 VS Code
 

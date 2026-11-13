@@ -33,3 +33,4 @@ Thumbs.db
 .vscode/
 !docs/assets/
 !docs/assets/*.png
+!docs/assets/assignment-qrcode.jpg
